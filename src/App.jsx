@@ -1,16 +1,15 @@
 // import './App.css'
 
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
-import Section3 from "./components/Section3/Section3";
-import { Route, Routes } from 'react-router-dom';
-
+import LandingPage from "./pages/LandingPage";
 
 function App() {
   return (
     <>
-    <Navbar />
-    <Routes>
-      <Route path="/" element={<Section3 />} />
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
       </Routes>
     </>
   );

@@ -3,7 +3,7 @@ import styles from "./Section3.module.css";
 
 export default function Section3() {
   return (
-    <section>
+    <section className="mt-4 container">
       <div className="text-center">
         <h2 className="fw-bold mb-4 fs-1">
           Discover our Form Maker Capabilities
@@ -14,9 +14,7 @@ export default function Section3() {
           right ways with the help of digital forms & surveys.
         </p>
       </div>
-      <div
-        className={`d-flex justify-content-between flex-wrap mx-auto ${styles.sec_3}`}
-      >
+      <div className="d-flex justify-content-between flex-wrap mx-auto">
         {section3data.map((data) => (
           <div key={data.id} className={`mt-4 ${styles.sec_3_info}`}>
             <img src={data.img} alt="" className={styles.sec_3_img} />
@@ -26,7 +24,7 @@ export default function Section3() {
         ))}
       </div>
       <div>
-        <p className={`mt-4 mx-auto ${styles.sec_3}`}>
+        <p className="mt-4 mx-auto">
           All with an easy-to-use drag & drop interface, built by humans, for
           humans. We also provide stellar customer service, free of charge! Your
           team will love to use 123FormBuilder to generate leads, receive
