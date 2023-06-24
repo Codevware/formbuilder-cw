@@ -67,7 +67,7 @@ const Navbar = () => {
             </ul>
             <ul className="navbar-nav ms-0 d-flex ">
               <li className="nav-item">
-                <Link className="nav-link btn me-3" to="singin">
+                <Link className="nav-link btn me-3 text-start" to="singin">
                   Login
                 </Link>
               </li>

@@ -22,7 +22,7 @@ export default function ReviewInfo() {
           {Math.round(Math.random() * 100000000)}
         </h2>
         <h2 className="mt-4">Delivered form submission. Reday to get yours!</h2>
-        <button type="button" className="btn btn-primary px-4 py-2 mb-4">
+        <button type="button" className="btn btn-primary px-4 py-2 mt-4 mb-4">
           Get Started - It&apos;s Free
         </button>
       </div>
