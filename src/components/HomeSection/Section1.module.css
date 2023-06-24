@@ -1,0 +1,91 @@
+.section_title_one {
+    width: 1200px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section_title_one h2 {
+    font-size: 36px;
+    font-family: 'Frank Ruhl Libre', serif;
+    line-height: 40px;
+}
+
+.section_title_one p {
+    text-align: left;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.section_title_one div ul li {
+    font-size: 18px;
+    line-height: 36px;
+    list-style: none;
+    position: relative;
+}
+
+.section_title_one div ul li::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -24px;
+    top: 30%;
+    bottom: 0;
+    z-index: 5;
+    background-image: url('https://cdn.marketing123.123formbuilder.com/wp-content/themes/marketing123/assets/images/green-checkmark.svg');
+    background-repeat: no-repeat;
+}
+
+.section_title_one div ul li a {
+    text-decoration: none;
+}
+
+.section_title_one button {
+    width: 50%;
+    font-size: 18px;
+    padding: 15px, 30px !important;
+    height: 60px;
+}
+
+.section_link {
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.section_link:hover {
+    color: #0dcaf0;
+}
+
+
+
+
+/* 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .section_title_one {
+        margin-bottom: 45px;
+    }
+}
+
+@media (max-width: 767px) {
+    .section_title_one {
+        margin-bottom: 35px;
+    }
+}
+
+.section_title_one h2 {
+    margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .section_title_one h2 {
+        font-size: 2rem;
+        line-height: 2.8rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .section_title_one h2 {
+        font-size: 1.5rem;
+        line-height: 1.9rem;
+    }
+} */
